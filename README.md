@@ -11,10 +11,14 @@ All dataset must contain these features :
   - stimulation : a categorical feature (if stimulation feature is not required, create a stimulation feature and fill with "unstim").
   - cohort : a numeric feature. This feature is not used by easyXgboost as cross validation is perform independently.
   - outcome : the outcome features that must be studied for the dataset
+  - valid : a logical feature which specify the observations to include ("1") or to exclude ("0")
+  
 
 easyXgboost:::xgboost_initialize() : let you select study dataset (csv/xls format) and generates 2 configuration files (xgboost_metadata.csv, xgboost_grid_parameters.csv)
 
+
 Now, you just have to complete both configuration files (/"project folder"/easyXgboost/attachments/).
+
 
 easyXgboost:::launch_analysis() : 
   - Import parameters : recall parameters saved in configuration files.
