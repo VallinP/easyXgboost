@@ -3,8 +3,8 @@ easyXgboost : An easy way to perform xgboost analysis.
 
 ## How To easyXgboost
 
-This R package was designed for translational and research data. So, a standard format has been established to inssure the compatiblity.
-All dataset must contains these features : 
+This R package was designed for translational and research data. So, a standard format has been established to insure datasets compatiblity.
+All dataset must contain these features : 
   - primary ID : a numeric feature with unique ID for each observation (=rows)
   - patient ID : a numeric feature
   - timepoint : a numeric feature (if not a longitudinal study, create a timepoint feature and fill with "0"). This feature is not used by easyXgboost 
