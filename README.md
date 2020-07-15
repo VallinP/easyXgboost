@@ -18,7 +18,7 @@ Now, you just have to complete both configuration files (/"project folder"/easyX
 
 easyXgboost:::launch_analysis() : 
   - Import parameters : recall parameters saved in configuration files.
-  - Prepare datast : clean dataset, convert binary features into compatible format (levels : "1","2"), One-Hot-Encoding categorical features, impute data.
+  - Prepare dataset : clean dataset, convert binary features into compatible format (levels : "1","2"), One-Hot-Encoding categorical features, impute data.
   - Xgboost analysis : perform multiple cross-validated xgboost analysis and autotuning of the model 
   - Xgboost explain : explain xgboost models
   - Report : print pdf report of xgboost models
