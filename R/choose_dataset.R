@@ -15,8 +15,8 @@
 choose_dataset <- function(caption = "Select a dataset") {
   setwd("~/")
 
-  if (exists('utils::choose.file')) {
-    dir <- utils::choose.file(caption)
+  if (exists('choose.files', where='package:utils', mode='function')) {
+    dir <- utils::choose.files(caption)
   } else {
     dir <- tcltk::tk_choose.files(caption)
   }
