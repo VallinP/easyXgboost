@@ -20,7 +20,7 @@ easyXgboost:::xgboost_initialize() : let you select study dataset (csv/xls forma
 Now, you just have to complete both configuration files (/"project folder"/easyXgboost/attachments/).
 
 
-easyXgboost:::launch_analysis() : 
+easyXgboost:::run_analysis() : 
   - Import parameters : recall parameters saved in configuration files.
   - Prepare dataset : clean dataset, convert binary features into compatible format (levels : "1","2"), One-Hot-Encoding categorical features, impute data.
   - Xgboost analysis : perform multiple cross-validated xgboost analysis and autotuning of the model 
