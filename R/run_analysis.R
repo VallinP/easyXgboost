@@ -1,4 +1,4 @@
-#' Launch xgboost analysis workflow
+#' Run xgboost analysis workflow
 #'
 #' @import magrittr
 #'
@@ -28,4 +28,4 @@ run_analysis <- function(){
           "# xgboost analysis completed #", "\n",
           rep("=", times = 30), "\n", "\n")
 
-} #end launch_analysis function
+} #end run_analysis function
