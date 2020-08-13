@@ -4,7 +4,7 @@
 #'
 #' @export
 #'
-launch_analysis <- function(){
+run_analysis <- function(){
 
   caption.value <- "Select your project directory"
   dataFile <- easyXgboost:::choose_dataset(caption.value)
